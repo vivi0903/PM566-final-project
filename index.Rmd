@@ -22,7 +22,6 @@ library(DT)
 library(knitr)
 ```
 
-
 ```{r}
 # Initialize code chunk options
 opts_chunk$set(
@@ -36,7 +35,6 @@ opts_chunk$set(
   fig.asp = 0.618,
   out.width = "700px")
 ```
-
 
 ```{r}
 source("process_COVID_data.R")
@@ -65,7 +63,6 @@ p2_scatter <- cv_states_today_scatter %>%
                   yaxis = list(title = "Deaths per 100k"), xaxis = list(title = "Population Density"),
          hovermode = "compare")
 ```
-
 
 ## Showcasing plots {.tabset}
 
